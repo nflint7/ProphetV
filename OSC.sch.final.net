@@ -1,0 +1,93 @@
+* SpiceNetList
+* 
+* Exported from OSC.sch at 4/17/20 2:23 PM
+* 
+* EAGLE Version 9.6.0 Copyright (c) 1988-2020 Autodesk, Inc.
+* 
+.TEMP=25.0
+
+* --------- .OPTIONS ---------
+.OPTIONS ABSTOL=1e-12 GMIN=1e-12 PIVREL=1e-3 ITL1=100 ITL2=50 PIVTOL=1e-13 RELTOL=1e-3 VNTOL=1e-6 CHGTOL=1e-15 ITL4=10 METHOD=TRAP SRCSTEPS=0 TRTOL=7 NODE
+
+* --------- .PARAMS ---------
+
+* --------- devices ---------
+_SUPPLY4 GND 
+_SUPPLY11 GND 
+_L1 +15V 
+_U454 -5V 
+_R4172 N_29 50K1 
+_SUPPLY5 GND 
+_C4130 N_19 0.01u 
+_SUPPLY2 GND 
+_SUPPLY6 GND 
+_SUPPLY10 GND 
+_U$1 N_11 
+_R4323 N_16 470 
+_R9 N_28 100K 
+_SW33 BTRI 
+_Q401 -5V 2N4250 
+_R4297 N_24 10K 
+_C4107 N_25 200p 
+_R4293 -5V 5k62 
+_R4325 N_17 1K82 
+_R3 N_15 100K 
+_R4296 N_23 47K 
+_R1 N_10 100K 
+_R2 N_14 5K 
+_R4324 N_8 357K 
+_R4 N_12 100K 
+_SW34 N_28 
+_R4294 -5V 5K 
+_R4162 N_28 52K3 
+_R6 N_14 10K 
+_R4163 N_28 100K 
+_SUPPLY3 GND 
+_D1 N_29 1N914 
+_L2 -15V 
+_SW26 ATRI 
+_C4120 N_22 0.1u 
+_SW28 N_9 
+_R4327 N_19 470 
+_R4295 N_6 10K 
+_C1 +15V 10u 
+_R5 N_11 5K 
+_SUPPLY8 GND 
+_SUPPLY9 GND 
+_C4119 N_20 1000p 
+_C4129 N_16 0.01u 
+_D417 N_9 1N914 
+_U$2 N_15 
+_SUPPLY1 GND 
+_SUPPLY7 GND 
+_R12 N_31 5K 
+_R7 N_13 10K 
+_U1 N_28 LM348 
+_R4326 N_18 2M21 
+_SW29 ASQR 
+_J1 GND 
+_J16 N_30 
+_R4357 PMOD 310K 
+_R4292 N_1 26k7 
+_C2 -15V 10u 
+
+* --------- simulation ---------
+.control
+set filetype=ascii
+OP
+write OSC.sch.sim
+.endc
+
+
+
+.END
+
+
+
+
+
+
+
+
+
+
